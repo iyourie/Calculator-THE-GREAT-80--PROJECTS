@@ -1,0 +1,24 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+main .lower {
+  display: grid;
+  grid-template-columns: repeat(4, 50px);
+  gap: 5px;
+  margin-top: 10px;
+}
+.upper input {
+  width: 170px;
+  margin-right: 4px;
+  outline: none;
+}
+.upper button {
+  width: 28px;
+}
+button {
+  cursor: pointer;
+}
